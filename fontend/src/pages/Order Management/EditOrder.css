@@ -1,0 +1,58 @@
+/* EditOrder.css */
+
+.edit-order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (top) */
+    height: 100vh;
+    padding-top: 50px; /* Adjust top padding to create space for the BackButton */
+  }
+  
+  .edit-order-heading {
+    margin-bottom: 20px; /* Add margin bottom for the heading */
+  }
+
+  .order-form {
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    width: 80%; /* Adjust the width of the form */
+    max-width: 500px; /* Optionally, set a maximum width for the form */
+  }
+  
+  .order-form .my-4 {
+    margin-bottom: 6px;
+  }
+  
+  .order-form .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .order-form .text-grey-500 {
+    color: #7d7d7d;
+  }
+  
+  .order-form input[type="text"],
+  .order-form input[type="date"] {
+    border: 2px solid skyblue;
+    padding: 8px;
+    width: 100%; /* Adjust the width of the input fields */
+    margin-top: 24px;
+  }
+  
+  .order-form input[type="number"] {
+    border: 2px solid skyblue;
+    padding: 8px;
+    width: 100%; /* Adjust the width of the input fields */
+    margin-top: 24px;
+  }
+  
+  .btn-save {
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }

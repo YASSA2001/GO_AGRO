@@ -1,0 +1,10 @@
+.form-y{
+    width: 550px;
+}
+
+
+.form-y input{
+    
+    outline: none;
+    border-bottom: 1px solid black;
+}

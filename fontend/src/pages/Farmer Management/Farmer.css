@@ -1,0 +1,14 @@
+.bn button{
+
+    transition: .5s ease;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.bn button:hover{
+    transform: scale(1.2,1.2);
+    
+}

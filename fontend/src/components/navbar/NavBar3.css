@@ -1,0 +1,33 @@
+.nav1 {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Vertically center items */
+    background-color: #1A4133;
+    padding: 10px 20px; /* Add padding to the top and bottom */
+}
+
+.nav1 h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Adjust font size */
+    color: #fff; /* Set text color */
+}
+
+.nav1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adjust the gap between items */
+}
+
+.nav1 ul li {
+    transition: transform 0.3s ease;
+}
+
+.nav1 ul li:hover {
+    transform: scale(1.1);
+}
+
+.nav1 .list1 {
+    margin-left: auto; /* Push the right-aligned items to the right */
+}

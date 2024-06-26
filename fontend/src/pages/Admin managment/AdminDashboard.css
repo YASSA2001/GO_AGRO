@@ -1,0 +1,14 @@
+.by{
+
+    background-color: #1A4133;
+    width: 350px;
+    height: 170px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.by:hover{
+    transform: scale(1.05);
+}

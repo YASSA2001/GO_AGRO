@@ -1,0 +1,29 @@
+.b1{
+
+    background-color: #006400;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  body {
+    background-image: url(''); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Do not repeat the background */
+  }
+  
+  
+  .container {
+    padding: 20px;
+  }
